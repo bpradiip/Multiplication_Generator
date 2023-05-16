@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 210px;
+}
+
+button {
+    height: 30px;
+    width: 70px;
+    background-color: rgb(2, 136, 2);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: rgb(0, 128, 32);
+}
